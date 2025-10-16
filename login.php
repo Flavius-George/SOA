@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-$host = '10.13.11.6';
-$user = 'fs177';
-$pass = 'wa6ohrgq';
+$host = 'db';
+$user = 'user';
+$pass = 'pass';
 $dbname = 'fs177';
 
 try {
@@ -70,3 +70,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </body>
 </html>
+
