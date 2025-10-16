@@ -1,5 +1,5 @@
 <?php
-$servername = "10.13.11.6";
+$servername = "db";
 $username = "fs177";
 $password = "wa6ohrgq";
 $dbname = "fs177";
@@ -9,3 +9,4 @@ if ($conn->connect_error) {
     die("Conexiune esuata: " . $conn->connect_error);
 }
 ?>
+
